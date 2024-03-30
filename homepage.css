@@ -1,0 +1,222 @@
+
+.foot_logo2 {
+    width: 200px;
+    height: 150px;
+}
+.col-sm-2 {
+    margin-left: 8%;
+    text-align: left;
+}
+.foot-policy {
+    margin-left: 12%;
+    margin-right: 12%;
+}
+.foot-container {
+    text-align: center;
+    padding: 5% 5%;
+}
+.foot-container p{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.foot-icons a {
+    font-size: 25px;
+    padding-left: 50px;
+}
+.foot-container a {
+    text-decoration: none;
+    text-align: left;
+    transition: background-color 0.3s ease;
+}
+.foot-container hr{
+    color: #fff;
+    width: 80%;
+    margin-left: 10%;
+}
+.container img {
+    width: 150px;
+}
+.navbar-nav{
+    margin-left: 60%;
+    text-align: right;
+}
+.navbar-nav .nav-link:hover,
+.foot-link:hover,
+.bi:hover,.foot-icons a:hover,
+.foot-policy a:hover {
+    color: red !important; 
+    text-decoration: none !important; 
+}
+.pokelogo {
+    width: 300px;
+    margin-bottom: 10%;
+    animation: fade-in linear;
+    animation-timeline: view();
+    animation-range-start: cover;
+    animation-range-end:  entry 400px; 
+}
+.bottom-container h1{
+    font-weight: bold;
+    font-size: 3rem;
+}
+.bottom-container {
+    padding: 5% 5%;
+    text-align: center;
+}
+.col-sm-4 img{
+    margin-top: 5%;
+    animation: fade-in linear;
+    animation-timeline: view();
+    animation-range-start: cover;
+    animation-range-end:  entry 400px; 
+}
+.col-sm-4 img:hover{
+    transform: scale(1.05); 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.event-container {
+   padding: 3% 3%;
+}
+.col-md-6 .card {
+   margin-bottom: 20px;
+}
+.col-sm-6 .card {
+    margin-right: 10%;
+}
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    animation: fade-in linear;
+    animation-timeline: view();
+    animation-range-start: cover;
+    animation-range-end:  entry 400px; 
+}
+
+.card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); 
+}
+
+@keyframes fade-in {
+    from {scale: 0.8; opacity: 0;}
+    to {scale: 1; opacity: 1;}
+    
+}
+.body-container {
+    background-image: url(bdbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 650px;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  .pokeball-container {
+    position: relative;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .pokeball {
+    position: absolute;
+    left: -500px;
+    top: -500px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    animation: pokeball-fall 2s linear forwards;
+  }
+  
+  .hidden {
+    display: none;
+  }
+
+  #pokehigh {
+    margin-top: 40%;
+  }
+  #pokbut {
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    background-color: #007bff;
+    border: 1px solid transparent;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+  }
+  
+  .str-cont {
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 80%;
+    height: 80%;
+    cursor: pointer;
+  }
+ 
+  
+  
+  @keyframes pokeball-fall {
+    0% {
+        left: -500px;
+        top: -500px;
+    }
+    30%{
+        left: calc(50% - 350px);
+        top: 200px;
+    }
+    40%{
+        left: calc(50% - 300px);
+    }
+    70%{
+        left: calc(50% - 200px);
+        top: -150px;
+    }
+    80%{
+        left: calc(50% - 150px);
+        top: -100px;
+    }
+    100% {
+        left: calc(50% - 50px);
+        top: 0px;
+    }
+  }
+  
+  .video-container {
+    padding: 5% 5%;
+    height: 450px;
+  }
+  .video-container iframe {
+    margin-left: 20%;
+    width: 60%;
+    height: 100%;
+    animation: fade-in linear;
+    animation-timeline: view();
+    animation-range-start: cover;
+    animation-range-end:  entry 400px; 
+  }
+#grad {
+    background-image: linear-gradient(to left, #0047AB , #7DF9FF);
+ }
+ .navbar a{
+    color: #fff;
+ }
+ .foot-container p{
+    color: black;
+ }
+ .foot-container a{
+    color: black !important;
+ }
+ #pokemon-img {
+    width: 650px;
+    margin-right: 50%;
+ }
+ .col-lg-5 {
+    text-align: left;
+  }

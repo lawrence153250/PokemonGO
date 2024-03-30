@@ -1,0 +1,25 @@
+//custom variables 
+$primary: #FF0000;
+$secondary: #CC0000;
+$success: #3B4CCA;
+$info: #FFDE00;
+$warning: #B3A125;
+
+// import the function and variables
+@import "../node_modules/bootstrap/scss/_functions";
+@import "../node_modules/bootstrap/scss/_variables";
+
+$custom-theme-colors: (
+    "altlight" :  #fff,
+    "altdark": #18242e,
+    "backg": #0c1c3e,
+    "lightbg": #d2d8d3,
+    "pinky": #FF69B4,
+    'lgray': #818589,
+    'altbg': #F9F6EE
+);
+
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+

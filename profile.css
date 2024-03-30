@@ -1,0 +1,120 @@
+.foot_logo2 {
+    width: 200px;
+    height: 150px;
+}
+.col-sm-2 {
+    margin-left: 8%;
+    text-align: left;
+}
+.foot-policy {
+    margin-left: 12%;
+    margin-right: 12%;
+}
+.foot-container {
+    text-align: center;
+    padding: 5% 5%;
+}
+.foot-container p{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.foot-icons a {
+    font-size: 25px;
+    padding-left: 50px;
+}
+.foot-container a {
+    text-decoration: none;
+    text-align: left;
+    transition: background-color 0.3s ease;
+}
+.foot-container hr{
+    color: #fff;
+    width: 80%;
+    margin-left: 10%;
+}
+.container img {
+    width: 150px;
+}
+.navbar-nav{
+    margin-left: 60%;
+    text-align: right;
+}
+.navbar-nav .nav-link:hover,
+.foot-link:hover,
+.bi:hover,.foot-icons a:hover,
+.foot-policy a:hover {
+    color: red !important; 
+    text-decoration: none !important; 
+}
+#header1 {
+    font-size: 4rem;
+    margin-bottom: 3%;
+}
+#progress {
+    width: 180px;
+    margin-left: 15%;
+}
+#pprog {
+    margin-left: 3%;
+    font-size: 1rem;
+}
+.col-sm-1 {
+    margin-left: 5%;
+}
+.col-md-4{
+    width: 90%;
+    background-image: url(profilebg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    font-size: 2rem;
+    font-weight: bold;
+}
+.col-md-4 p{
+    padding-left: 10%;
+}
+.col-md-4 img {
+    margin-left: -35%;
+}
+.body-container {
+    padding: 5% 5% 5% 5%;
+}
+.card p{
+    padding-left: 3%;
+}
+.body-container i{
+    cursor: pointer;
+}
+#cpass {
+    text-decoration: none !important; 
+    color: #18242e !important;
+}
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    animation: fade-in linear;
+    animation-timeline: view();
+    animation-range-start: cover;
+    animation-range-end:  entry 300px; 
+}
+
+.card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); 
+}
+
+@keyframes fade-in {
+    from {scale: 0.8; opacity: 0;}
+    to {scale: 1; opacity: 1;}
+    
+}
+#grad {
+    background-image: linear-gradient(to left, #0047AB , #7DF9FF);
+ }
+ .navbar a{
+    color: #fff;
+ }
+ .foot-container p{
+    color: black;
+ }
+ .foot-container a{
+    color: black !important;
+ }
